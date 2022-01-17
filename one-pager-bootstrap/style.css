@@ -1,0 +1,104 @@
+@media only screen and (min-width: 800px) {
+    #navbar-menu {
+    margin-right: 140px;
+    margin-left: 140px;
+    }
+    .active {
+        background-color: #0f8bb8;
+        color: #fff;
+    }
+    #loremipsum {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    #lorem-about {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #about {
+        padding-top: 10px;
+        float: left; 
+        width: 33%;
+        height: 220px;
+    }
+    #blog {
+        float: left; 
+        width: 33%;
+        height: 220px;
+    }
+    #contact {
+        float: right;
+        width: 33%;
+        height: 220px;
+    }
+}
+.navbar {
+    background-color: #12B0E8;
+  }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    bottom:-40px;
+    background-color: #CAD5E2;
+}
+.carousel-indicators .active {
+    background-color: #242B2E;
+}
+#carouselExampleIndicators {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#main-para {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#main-div {
+    width: 40%;
+}
+#blog-div {
+    margin: 0.5em auto;
+}
+#main-card {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.center {
+    justify-content: center;
+    text-align: center;
+}
+#icon {
+    fill: #12B0E8;
+}
+.material-icons {
+    font-size: 50px;
+    color: #12B0E8;
+}
+#bottom {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer {
+    background-color: #12B0E8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+#blog  {
+    padding-top: 10px;
+}
+#contact  {
+    padding-top: 10px;
+}
+.footer-text {
+    color: #fff;
+}
+.socials { 
+    color: #fff;
+    float: right;
+}
