@@ -1,0 +1,3 @@
+[submodule "college_website"]
+	path = college_website
+	url = git@github.com:prateek-budhiraja/college_website.git
