@@ -94,9 +94,11 @@ a {
 .skill-row {
     width: 50%;
     text-align: left;
-    line-height: 2;
     /* position: relative; */
     margin: 100px auto;
+}
+p {
+    line-height: 2;
 }
 hr {
     border-style: none;
@@ -108,7 +110,6 @@ hr {
 
 .get-in-touch-p {
     margin-bottom: 25px;
-    line-height: 2
 }
 
 .btn {
@@ -147,7 +148,6 @@ hr {
     color: #ffffff;
 }
   .bottom-container {
-      line-height: 2;
       height: 80px;
       padding: 40px;
       background-color: #11cdd4;
