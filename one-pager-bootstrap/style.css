@@ -1,7 +1,29 @@
 .cor {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.carousel-indicators {
+  bottom: -6vh;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 1vw;
+  height: 1vw;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #112b3c;
+}
+.carousel-indicators .active {
+  margin: 10px;
+  width: 1vw;
+  height: 1vw;
+  background-color: #205375;
 }
