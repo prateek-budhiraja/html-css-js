@@ -1,4 +1,8 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .container {
+	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
@@ -13,4 +17,8 @@
 	border: 1px solid black;
 	cursor: move;
 	padding: 10px;
+}
+
+.dragging {
+	opacity: 0.5;
 }
