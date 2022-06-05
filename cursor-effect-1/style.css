@@ -1,5 +1,24 @@
+body {
+  cursor: none !important;
+  height: 100vh;
+}
+.cursor {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  z-index: -1;
+}
+
 h2 {
   margin-top: 1rem;
+  padding: 1rem;
 }
 
 .nav {
@@ -10,12 +29,22 @@ h2 {
   margin-right: auto;
 }
 .nav-links {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .nav-links li {
   display: inline;
   list-style-type: none;
-  padding: 2rem;
+  margin-left: 4rem;
   text-decoration: underline;
+  padding: 20px;
+}
+
+.link-grow {
+  transform: scale(3);
+  background-color: black;
+}
+
+.hovered-link {
+  color: #fff;
 }
