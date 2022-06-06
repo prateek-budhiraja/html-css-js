@@ -1,5 +1,6 @@
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #03203c;
 }
 .container {
 	border-radius: 20px;
@@ -12,6 +13,7 @@ body {
 }
 
 .draggable {
+	text-align: center;
 	background-color: #cad5e2;
 	border-radius: 10px;
 	border: 1px solid black;
