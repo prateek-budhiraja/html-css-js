@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	scroll-snap-type: y mandatory;
+	height: 100vh;
+	overflow-y: scroll;
+}
+
+section {
+	min-height: 100vh;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: start;
+}
+
+.one {
+	background-color: #03203c;
+}
+.two {
+	background-color: #1c8d73;
+}
+.three {
+	background-color: #ff6666;
+}
+
+.four {
+	background-color: #207398;
+}
