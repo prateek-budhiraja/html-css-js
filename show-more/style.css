@@ -1,0 +1,23 @@
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #242b2e;
+	color: #cad5e2;
+	text-align: center;
+}
+
+.text {
+	font-size: large;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.btn {
+	padding: 15px 30px;
+	border-radius: 5px;
+}
+
+.hidden {
+	display: none;
+}
