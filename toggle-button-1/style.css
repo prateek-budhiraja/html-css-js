@@ -1,0 +1,21 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	background-color: black;
+	border: 3px solid black;
+	border-radius: 100px;
+}
+
+.button {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+}
