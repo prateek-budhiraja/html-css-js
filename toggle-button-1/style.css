@@ -5,6 +5,7 @@ body {
 	align-items: center;
 }
 .container {
+	cursor: pointer;
 	position: absolute;
 	width: 200px;
 	height: 100px;
@@ -14,8 +15,18 @@ body {
 }
 
 .button {
+	position: relative;
+	left: 0px;
 	width: 100px;
 	height: 100px;
 	background-color: white;
 	border-radius: 50%;
+}
+
+.turnOn {
+	background-color: green;
+}
+
+.active {
+	left: 100px;
 }
