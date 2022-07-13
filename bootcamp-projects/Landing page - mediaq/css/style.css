@@ -1,0 +1,98 @@
+body {
+  background-image: url("../images/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 5%;
+}
+
+nav {
+  display: flex;
+  height: 20vh;
+  flex-direction: row;
+}
+
+nav .nav-link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 25px;
+}
+
+nav .nav-items {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav .menu-icon {
+  display: none;
+}
+
+.brand-image {
+  flex: 1;
+  margin: auto;
+}
+
+.logo-link {
+  display: block;
+}
+
+.brand-image img {
+  height: 80px;
+}
+
+.nav-btn {
+  font-size: 20px;
+  border: 0;
+  background-color: #FF6666;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 80vh;
+}
+
+.col {
+  display: flex;
+  flex: 0.5;
+  min-height: 100%;
+}
+
+.col-right {
+  overflow: hidden;
+}
+
+.phone {
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+.col-left {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #FFF;
+}
+
+.col-left p {
+  font-size: 20px;
+}
+
+.col-left h1 {
+  font-size: 65px;
+}
+
+.google-play {
+  height: 90px;
+}
