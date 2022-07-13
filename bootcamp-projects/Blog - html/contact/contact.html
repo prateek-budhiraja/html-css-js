@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Service</title>
+	</head>
+	<body>
+		<div>
+			<h1>Contact Page</h1>
+			<h2>Welcome to the contact page</h2>
+			<a href="../index.html">Home</a>
+			<div id="contact-page">
+				<form action="" method="get">
+					<label for="name">Enter Name: </label
+					><input type="text" name="name" id="name" /><br />
+					<label for="email">Enter Email</label
+					><input type="email" name="email" id="email" /><br />
+					<label for="messgae">Write your message</label><br /><textarea
+						name="message"
+						id=""
+						cols="30"
+						rows="10"
+					></textarea
+					><br />
+					<label for="language">Select your language</label>
+					<select name="language" id="">
+						<option value="cpp">C++</option>
+						<option value="java">Java</option>
+						<option value="js">Java Script</option></select
+					><br />
+					<label for="socials">Select your faivorite socials:</label>
+					<label for="linkedin">Linkedin</label>
+					<input type="checkbox" name="linkedin" id="" />
+					<label for="insta">Instagram</label>
+					<input type="checkbox" name="insta" id="" />
+					<label for="fb">Facebook</label>
+					<input type="checkbox" name="fb" id="" />
+
+					<br />
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- 
+  http://127.0.0.1:5500/contact/contact.html?
+  name=hello&
+  email=something%40abs&
+  message=hello+how+are+you&
+  language=java&
+  linkedin=on&
+  fb=on
+ -->
