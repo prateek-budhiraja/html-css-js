@@ -38,3 +38,99 @@ main {
 .mockup {
   height: 500px;
 }
+
+.form {
+  width: 100%;
+}
+
+.flex-coloumn {
+  flex-direction: column;
+}
+
+.form-section {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.form-section h1 {
+  font-size: 40px;
+  margin: 25px 0;
+  color: #343333;
+  text-transform: capitalize;
+}
+
+input {
+  font-size: 15px;
+  padding: 8px 30px;
+  border-radius: 8px;
+  border: 1px solid #a7a7a7;
+  margin-bottom: 5px;
+  width: 100%;
+  margin: 3px 7px;
+  margin-left: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px 30px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #f59e2e;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #c1791b;
+}
+
+.btn-fb {
+  background-color: #354c8d;
+}
+
+.btn-tw {
+  background-color: #46B2E0;
+}
+
+.btn-fb:hover {
+  background-color: #2d4075;
+}
+
+.btn-tw:hover {
+  background-color: #3e9dc5;
+}
+
+
+@media screen and (max-width: 850px) {
+  .mockup {
+    display: none;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .form-section {
+    padding: 20px 30px;
+  }
+
+  .image-top {
+    height: 300px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+}
