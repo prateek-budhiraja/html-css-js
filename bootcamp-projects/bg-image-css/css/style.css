@@ -13,9 +13,13 @@ body {
 
 header {
   height: 60vh;
-  background: url("../images/boat-man.jpg");
+  background-image:
+    linear-gradient(to right bottom,
+      rgba(37, 56, 152, 0.756),
+      rgba(87, 55, 214, 0.74)),
+    url("../images/boat-man.jpg");
   background-position: center;
-  clip-path: polygon(48% 0, 100% 0, 90% 93%, 0 70%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 97% 84%, 0 60%, 0 0);
   background-size: cover;
 }
 
