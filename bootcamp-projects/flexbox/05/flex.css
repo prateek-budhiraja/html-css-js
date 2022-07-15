@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  /* width: 1000px; */
+  border: 2px solid black;
+}
+
+.container div {
+  /* default */
+  /* flex-grow: 0; */
+
+  /* ratio -> entire width of parent -> elements will be in it and all the child will grow equally */
+  flex-grow: 1;
+
+}
+
+.container div:nth-child(2) {
+  /* twice as more as other elements */
+  flex-grow: 2;
+}
