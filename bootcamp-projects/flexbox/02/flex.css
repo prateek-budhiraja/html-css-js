@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  border: 1px solid black;
+
+  /* good practice to always define your main axis with flex direction */
+  /* height: 100vh;
+  flex-direction: column; */
+  flex-direction: row;
+  /* works on main axis */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  justify-content: space-between;
+}
