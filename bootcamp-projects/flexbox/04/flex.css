@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.three {
+  /* order: 0; default */
+  /* order: 1; to the last */
+  order: -2;
+  /* to the start */
+}
+
+.four {
+  order: -1;
+}
+
+.container div:nth-child(6) {
+  order: -3;
+}
