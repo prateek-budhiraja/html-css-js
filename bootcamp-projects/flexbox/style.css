@@ -1,12 +1,16 @@
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #242B2E;
 }
 
 .bg {
   height: 100vh;
   width: 100%;
-  background-color: #242B2E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .form * {
@@ -17,7 +21,9 @@ body {
   padding: 5px;
 }
 
+/* Without flex center */
+/* 
 .form {
   padding-top: 25%;
   padding-left: 30%;
-}
+} */
