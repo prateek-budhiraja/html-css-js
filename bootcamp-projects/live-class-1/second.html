@@ -32,7 +32,21 @@
   <!-- <a href="https://ineuron.com" target="_blank">
     <img src="./Assets/lco.png" width="50px" alt="">
   </a>  -->
-  <!-- TODO: read about target values-->
+
+  <!-- Target values -->
+  <!--
+
+  _self (default): Load into the same browsing context as the current one.
+
+  _blank: Load into a new unnamed browsing context.
+
+  _parent: Load into the parent browsing context of the current one. If no parent,behaves the same as _self.
+    EXAMPLE: in frames, the parent is the page enclosing the frame
+
+  _top: Load into the top-level browsing context (i.e., the browsing context that is an ancestor of the current one and
+  has no parent). If no parent, behaves the same as _self 
+
+  -->
   <a href="https://ineuron.ai" target="">
     <img src="./Assets/lco.png" width="50px" alt="">
   </a>
@@ -47,8 +61,12 @@
 
   <!-- video in a div -->
   <!-- <video controls width="500px" src="./Assets/sample-video.mp4"></video> -->
-  <video controls width="500px">
+
+  <!-- NOTE: In chrome autoplay only work if muted property is present -->
+  <video controls autoplay muted controlslist="nodownload" loop width="500px">
     <source src="./Assets/sample-video.mp4" type="video/mp4">
+    <!-- NOTE: Can give fall back inside video tag -->
+    VIDEO cannot be played on your browser.
   </video>
 
   <!-- Video control -->
