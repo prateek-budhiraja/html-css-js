@@ -10,8 +10,10 @@
 
 <body>
   <!-- tables -->
-  <!-- TODO: read about table attributes from mdn -->
-  <table border>
+
+  <table border align="center" cellpadding="10px">
+    <!-- NOTE: caption increases accessibility for screen readers as well -->
+    <caption>Test table</caption>
     <tr>
       <td>Sr. No</td>
       <td>Name</td>
@@ -39,6 +41,15 @@
   </table>
 
   <!-- forms -->
+  <form action="#">
+    Name: <input type="text" name="" placeholder="Enter your name" id=""> <br />
+    <label for="gender">Gender: </label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+  </form>
+
+
+
 </body>
 
 </html>
