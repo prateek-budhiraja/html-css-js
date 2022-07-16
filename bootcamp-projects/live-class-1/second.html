@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <p>Welcome to another HTML talk</p>
 
-    <!-- image -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+</style>
 
-    <!-- image with attributes -->
+<body>
+  <p>Welcome to another HTML talk</p>
 
-    <!-- clickable images -->
+  <!-- image -->
+  <img src="./Assets/image1.png" alt="">
 
-    <!-- link attributes -->
+  <!-- image with attributes -->
+  <img src="./Assets/lco.png" width="50px" alt="">
 
-    <!-- audio in a div -->
+  <!-- clickable images -->
 
-    <!-- video in a div -->
+  <!-- <a href="https://ineuron.com">
+    <img src="./Assets/lco.png" width="50px" alt="">
+  </a> -->
 
-    <!-- Video control -->
+  <!-- <a href="https://ineuron.com" target="_blank">
+    <img src="./Assets/lco.png" width="50px" alt="">
+  </a>  -->
+  <!-- TODO: read about target values-->
+  <a href="https://ineuron.ai" target="">
+    <img src="./Assets/lco.png" width="50px" alt="">
+  </a>
+  <!-- link attributes -->
 
-    <!-- iframe -->
-  </body>
+  <!-- audio in a div -->
+  <!-- <audio controls src="./Assets/sample-audio.mp3"></audio> -->
+  <audio controls>
+    <source src="./Assets/sample-audio.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <!-- video in a div -->
+  <!-- <video controls width="500px" src="./Assets/sample-video.mp4"></video> -->
+  <video controls width="500px">
+    <source src="./Assets/sample-video.mp4" type="video/mp4">
+  </video>
+
+  <!-- Video control -->
+  <!-- TODO: read from mdn -->
+
+
+  <!-- iframe -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7F2LkS3jpPA" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</body>
+
 </html>
