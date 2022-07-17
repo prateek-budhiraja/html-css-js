@@ -1,54 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      /* universal selector */
 
-      /* individual selector */
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    /* universal selector */
+    /* NOTE: selects everything */
+    * {
+      background-color: #4d4d4d;
+      color: #fff;
+    }
 
-      /* class and id selector */
+    /* individual selector */
+    /* NOTE: Not recommended */
+    p {
+      background-color: #6e6e2c;
+    }
 
-      /* and selector (chained) */
+    /* class and id selector */
 
-      /* combined selector */
+    #warning {
+      background-color: #e75757;
+      color: #fff;
+      padding: 3px;
+      border: 3px solid #fff;
+    }
 
-      /* inside an element */
 
-      /* direct child */
+    /* and selector (chained) */
+    /* NOTE: should have all the conditons should be li, has classes bg-black and text-white */
+    li.bg-black.text-white {
+      background-color: #000;
+      color: #fff;
+    }
 
-      /* sibling  ~ or + */
-    </style>
-  </head>
-  <body>
-    <div>Welcome to live class</div>
-    <span>Span is just a span, nothing more</span>
-    <p>We all know paragraph</p>
+    /* combined selector */
+    span,
+    li {
+      background-color: burlywood;
+    }
+
+    /* inside an element */
+    div ul li {
+      background-color: rgb(52, 108, 231);
+    }
+
+    /* direct child */
+    div>li {
+      background-color: rgb(50, 22, 110);
+    }
+
+    /* sibling  ~ or + */
+    /* INTERVIEW: asked in interviews */
+    /* .sibling+p {
+      background-color: #259c21;
+    } */
+    .sibling~p {
+      background-color: #259c21;
+    }
+  </style>
+</head>
+
+<body>
+  <div>Welcome to live class</div>
+  <span>Span is just a span, nothing more</span>
+  <p>We all know paragraph</p>
+  <ul>
+    <li class="bg-black text-white">item1</li>
+    <li id="warning">item2</li>
+    <li>item3</li>
+    <li>item4</li>
+    <li>item5</li>
+  </ul>
+
+  <div>
+    <li>awesome</li>
     <ul>
-      <li class="bg-black text-white">item1</li>
-      <li>item2</li>
-      <li>item3</li>
-      <li>item4</li>
-      <li>item5</li>
+      <li>highlight me</li>
+      <li>highlight me</li>
     </ul>
+    <li>test</li>
+  </div>
 
-    <div>
-      <li>awesome</li>
-      <ul>
-        <li>highlight me</li>
-        <li>highlight me</li>
-      </ul>
-    </div>
+  <section>
+    <p>Test 1</p>
+    <p class="sibling">Test 2</p>
+    <p>Test 3</p>
+    <p>Test 4</p>
+    <p>Test 5</p>
+  </section>
+</body>
 
-    <section>
-      <p>Test 1</p>
-      <p class="sibling">Test 2</p>
-      <p>Test 3</p>
-      <p>Test 4</p>
-      <p>Test 5</p>
-    </section>
-  </body>
 </html>
+
+
+<!-- READ: about facebook engineers -->
+<!-- NOTE: IDs when they are generated to make it different from facebook-->
